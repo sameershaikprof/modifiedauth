@@ -83,7 +83,7 @@ function isLoggedIn(req, res, next){
 }
 
 
-var server=app.listen(3000, process.env.IP, function(){
+var server=app.listen(process.env.PORT, process.env.IP, function(){
     console.log("server started.......");
 });
 
